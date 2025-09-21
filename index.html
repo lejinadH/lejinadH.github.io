@@ -1,14 +1,63 @@
 <!DOCTYPE html>
-<html lang='en'>
-<head>
-   <meta charset='UTF-8'>
-   <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-   <meta name='viewport' content='width=device-width, initial-scale=1.0'>
-   <title>Donut Shop</title>
-</head>
-<body>
-   <h1>Nesto četvrto</h1>
-   <img src="/uploads/2023/02/donut.png">
-   <p>Some paragraph</p>
-</body>
+<html>
+  <head>
+    <title>Kviz</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <meta charset="UTF-8">
+
+  </head>
+  <body>
+
+<!-- header-->
+    <header class = 'heads'>
+      <div class = 'logo'>
+        <div class = 'pic_logo'><img scr="b.png"></div>
+      </div>
+      <div class = 'pocetna'><p>Pocetna</p></div>
+      <div class = 'info'><p>Info</p></div>
+      <div class = 'kontakt'><p>Kontakt</p></div>
+      <button class = 'gear'><img scr="gear.png"></button>
+    </header>
+<!-- Start dugme-->
+    <div class = 'container start'> 
+      <div class = 'pic'> <img src = "Milijunas.png"> </div>
+      <h3 class = 'container_h3'> Qviz </h3>
+      <div class = 'start-btn'> Start </div>
+    </div>
+
+<!-- kontejner sa pitanjima-->
+    <div class="container questions">
+      <div class="sum">Pitanje za 50$</div>
+      <div class="main-question">Koji je glavni grad Japana</div>
+      <div class="ans-row">
+          <div class="answer">Sarajevo</div>
+          <div class="answer">Berlin</div>
+          <div class="answer">Tokio</div>
+          <div class="answer">Pariz</div>
+      </div>
+    </div>
+
+<!-- kontejner sa dobijenom sumom posle tacnog odg, odustani nastavi dgm-->
+    <div class="container correct">
+      <div class="award">Dobili ste 50$</div>
+      <div class="choice">
+        <div class="choice-btn">Nastavi</div>
+        <div class="choice-btn">Odustani</div>
+      </div>
+    </div>
+
+<!-- kontejner za kraj posle odbijanja dugmeta za nastavljanje-->
+    <div class="container end">
+      <div class="thanks">Hvala Vam na ucestvovanju</div>
+      <div class="meni_btn">Meni</div>
+    </div>
+
+<!-- kontejner za kraj posle odbijanja dugmeta za nastavljanje-->
+    <div class="container wrong">
+      <div class="thanks">Pogresan odgovor</div>
+      <div class="meni_btn">Meni</div>
+    </div>
+
+  </body>
 </html>
